@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+
+    <!-- Corpo da página -->
+    <header>
+        <h1>Barbearia Jobim</h1>
+        <nav>
+            <ul>
+                <li><a href="#agendamento">Agendar</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Agendamento -->
+    <main>
+        <section id="agendamento">
+            <h2>Agende seu horário</h2>
+            <form id="form-agendamento"> <!-- Corrigido o espaço no ID -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required />
+
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Corte masculino - R$30</li>
+                <li>Barba - R$20</li>
+                <li>Combo Corte + Barba - R$45</li>
+            </ul>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>WhatsApp: (31) 99368-6493</p>
+            <p>Endereço: Rua Martins Alves, 50 - BH</p>
+        </section>
+    </main>
+
+</body>
+</html>
